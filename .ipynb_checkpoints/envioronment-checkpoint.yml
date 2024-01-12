@@ -1,0 +1,12 @@
+name: exploration-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pip
+  - pip:
+    - nbgitpuller
+    - plotly
+    - pandas
+    - matplotlib
